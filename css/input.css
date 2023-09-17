@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@layer components {
+    .btn {
+        @apply shadow-md py-3 px-6 rounded-md transition duration-300;
+    }
+    .btn-purple{
+        @apply bg-bookmark-purple text-white;
+    }
+    .btn-white{
+        @apply bg-bookmark-white;
+    }
+    .img-style{
+        @apply w-5/6 h-5/6 sm:w-3/4 sm:h-3/4 md:w-full md:h-full
+    }
+}
+@tailwind utilities;
